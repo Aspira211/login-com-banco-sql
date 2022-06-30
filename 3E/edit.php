@@ -10,10 +10,10 @@
         {
             while($dados = mysqli_fetch_assoc($result))
             {
-                $nome = $dados['nome'];
-                $senha = $dados['senha'];
-                $email = $dados['email'];
-                $telefone = $dados['telefone'];;
+                $nome = $dados['Nome'];
+                $senha = $dados['Senha'];
+                $email = $dados['Email'];
+                $telefone = $dados['Telefone'];;
             }
         }
         else
